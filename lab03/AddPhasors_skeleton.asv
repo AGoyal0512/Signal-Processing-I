@@ -1,0 +1,11 @@
+function [A,phi] = AddPhasors(Amps,Phases)
+% 
+% Student Name: Agam Goyal
+%
+% This function implements the Phasor Addition Rule
+% Arguments: Amps -> Length N vector of amplitu
+
+
+z = sum(Amps.*exp(j*Phases));
+A = abs(z);
+phi = angle(z);
