@@ -18,4 +18,4 @@ T = 1/f;
 
 t = 0:T/20:dur;
 x = A*cos(2*pi*f*t+ phi);
-
+end
